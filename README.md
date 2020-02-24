@@ -1,6 +1,6 @@
 # crazyObservable
 
-crazyObservable is a custom [RxJS](https://rxjs-dev.firebaseapp.com/) observable that is used as a blueprint of a stream of random emissions, that is, a stream is drawn from *all possibilities* of emmiting a *predefined number* **totalNumberOfEmissions** over a predefined number of time steps **totalNumberOfTimeIntervals** (see [Marble diagram] bellow). Thisobservable is intended to give a better approach to tackle problems like described in those questions:
+crazyObservable is a custom [RxJS](https://rxjs-dev.firebaseapp.com/) observable that act as a blueprint for streams of random emissions, that is, streams drawn from *all possibilities* of emmiting a *predefined number of data* over a predefined number of time steps (see [Marble diagram] bellow). This observable is intended to give a better approach to tackle problems like described in the following questions:
 
   * https://stackoverflow.com/questions/35060681/rxjs-how-can-i-generate-a-stream-of-numbers-at-random-intervals-within-a-speci
   * https://stackoverflow.com/questions/41628268/observable-that-delays-a-random-time-everytime-the-stream-ends/41632041#41632041
