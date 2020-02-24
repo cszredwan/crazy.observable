@@ -27,8 +27,11 @@ complete() { console.log("crazyObservable is garanteed to complete, unless your 
 });
 ```
 
+## Proof
+
 I will soon upload a for crazyObservable validity that relies in the *discrete random assignment* implemented [here](./discreteRandomAssignment.js). I am also up to refactoring this code to serve as a singleton service for Angular apps as soon as possible.
 
+Note that calculations are done asyncronously and the number of emissions at each timestep is calculation on-the-fly.
 
 
   
